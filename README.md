@@ -1,6 +1,9 @@
 # Modern LLaMA-Style GPT
 
 A from-scratch decoder-only transformer trained on WikiText-103, implementing the full set of architectural upgrades found in LLaMA / Mistral over the original GPT-2.
+## About This Project
+
+This project was built to understand modern LLM architecture from first principles — not to use a library, but to implement every component from scratch and understand the design decisions that separate LLaMA/Mistral from the original GPT-2. RoPE, RMSNorm, SwiGLU, GQA, and Flash Attention are not just imported modules here — each is hand-coded and validated with a dedicated test suite covering architecture correctness, numerical stability, gradient flow, and causal mask integrity.
 
 ## Architecture
 
